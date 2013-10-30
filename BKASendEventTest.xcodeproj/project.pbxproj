@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B29C5FF21821998800C5EC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF11821998800C5EC98 /* Foundation.framework */; };
+		B29C5FF41821998800C5EC98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF31821998800C5EC98 /* CoreGraphics.framework */; };
+		B29C5FF61821998800C5EC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF51821998800C5EC98 /* UIKit.framework */; };
+		B29C5FFC1821998800C5EC98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29C5FFA1821998800C5EC98 /* InfoPlist.strings */; };
+		B29C5FFE1821998800C5EC98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C5FFD1821998800C5EC98 /* main.m */; };
+		B29C60021821998800C5EC98 /* BKAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C60011821998800C5EC98 /* BKAAppDelegate.m */; };
+		B29C60051821998800C5EC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B29C60031821998800C5EC98 /* Main.storyboard */; };
+		B29C60081821998800C5EC98 /* BKAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C60071821998800C5EC98 /* BKAViewController.m */; };
+		B29C600A1821998800C5EC98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B29C60091821998800C5EC98 /* Images.xcassets */; };
+		B29C60111821998800C5EC98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C60101821998800C5EC98 /* XCTest.framework */; };
+		B29C60121821998800C5EC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF11821998800C5EC98 /* Foundation.framework */; };
+		B29C60131821998800C5EC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF51821998800C5EC98 /* UIKit.framework */; };
+		B29C601B1821998800C5EC98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29C60191821998800C5EC98 /* InfoPlist.strings */; };
+		B29C601D1821998800C5EC98 /* BKASendEventTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C601C1821998800C5EC98 /* BKASendEventTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B29C60141821998800C5EC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B29C5FE61821998800C5EC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B29C5FED1821998800C5EC98;
+			remoteInfo = BKASendEventTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B29C5FEE1821998800C5EC98 /* BKASendEventTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKASendEventTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29C5FF11821998800C5EC98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B29C5FF31821998800C5EC98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B29C5FF51821998800C5EC98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B29C5FF91821998800C5EC98 /* BKASendEventTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKASendEventTest-Info.plist"; sourceTree = "<group>"; };
+		B29C5FFB1821998800C5EC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B29C5FFD1821998800C5EC98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B29C5FFF1821998800C5EC98 /* BKASendEventTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BKASendEventTest-Prefix.pch"; sourceTree = "<group>"; };
+		B29C60001821998800C5EC98 /* BKAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKAAppDelegate.h; sourceTree = "<group>"; };
+		B29C60011821998800C5EC98 /* BKAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKAAppDelegate.m; sourceTree = "<group>"; };
+		B29C60041821998800C5EC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B29C60061821998800C5EC98 /* BKAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKAViewController.h; sourceTree = "<group>"; };
+		B29C60071821998800C5EC98 /* BKAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKAViewController.m; sourceTree = "<group>"; };
+		B29C60091821998800C5EC98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B29C600F1821998800C5EC98 /* BKASendEventTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKASendEventTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29C60101821998800C5EC98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B29C60181821998800C5EC98 /* BKASendEventTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKASendEventTestTests-Info.plist"; sourceTree = "<group>"; };
+		B29C601A1821998800C5EC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B29C601C1821998800C5EC98 /* BKASendEventTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKASendEventTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29C5FEB1821998800C5EC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C5FF41821998800C5EC98 /* CoreGraphics.framework in Frameworks */,
+				B29C5FF61821998800C5EC98 /* UIKit.framework in Frameworks */,
+				B29C5FF21821998800C5EC98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C600C1821998800C5EC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C60111821998800C5EC98 /* XCTest.framework in Frameworks */,
+				B29C60131821998800C5EC98 /* UIKit.framework in Frameworks */,
+				B29C60121821998800C5EC98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29C5FE51821998800C5EC98 = {
+			isa = PBXGroup;
+			children = (
+				B29C5FF71821998800C5EC98 /* BKASendEventTest */,
+				B29C60161821998800C5EC98 /* BKASendEventTestTests */,
+				B29C5FF01821998800C5EC98 /* Frameworks */,
+				B29C5FEF1821998800C5EC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B29C5FEF1821998800C5EC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29C5FEE1821998800C5EC98 /* BKASendEventTest.app */,
+				B29C600F1821998800C5EC98 /* BKASendEventTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29C5FF01821998800C5EC98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29C5FF11821998800C5EC98 /* Foundation.framework */,
+				B29C5FF31821998800C5EC98 /* CoreGraphics.framework */,
+				B29C5FF51821998800C5EC98 /* UIKit.framework */,
+				B29C60101821998800C5EC98 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B29C5FF71821998800C5EC98 /* BKASendEventTest */ = {
+			isa = PBXGroup;
+			children = (
+				B29C60001821998800C5EC98 /* BKAAppDelegate.h */,
+				B29C60011821998800C5EC98 /* BKAAppDelegate.m */,
+				B29C60031821998800C5EC98 /* Main.storyboard */,
+				B29C60061821998800C5EC98 /* BKAViewController.h */,
+				B29C60071821998800C5EC98 /* BKAViewController.m */,
+				B29C60091821998800C5EC98 /* Images.xcassets */,
+				B29C5FF81821998800C5EC98 /* Supporting Files */,
+			);
+			path = BKASendEventTest;
+			sourceTree = "<group>";
+		};
+		B29C5FF81821998800C5EC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29C5FF91821998800C5EC98 /* BKASendEventTest-Info.plist */,
+				B29C5FFA1821998800C5EC98 /* InfoPlist.strings */,
+				B29C5FFD1821998800C5EC98 /* main.m */,
+				B29C5FFF1821998800C5EC98 /* BKASendEventTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B29C60161821998800C5EC98 /* BKASendEventTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B29C601C1821998800C5EC98 /* BKASendEventTestTests.m */,
+				B29C60171821998800C5EC98 /* Supporting Files */,
+			);
+			path = BKASendEventTestTests;
+			sourceTree = "<group>";
+		};
+		B29C60171821998800C5EC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B29C60181821998800C5EC98 /* BKASendEventTestTests-Info.plist */,
+				B29C60191821998800C5EC98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29C5FED1821998800C5EC98 /* BKASendEventTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29C60201821998800C5EC98 /* Build configuration list for PBXNativeTarget "BKASendEventTest" */;
+			buildPhases = (
+				B29C5FEA1821998800C5EC98 /* Sources */,
+				B29C5FEB1821998800C5EC98 /* Frameworks */,
+				B29C5FEC1821998800C5EC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BKASendEventTest;
+			productName = BKASendEventTest;
+			productReference = B29C5FEE1821998800C5EC98 /* BKASendEventTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B29C600E1821998800C5EC98 /* BKASendEventTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B29C60231821998800C5EC98 /* Build configuration list for PBXNativeTarget "BKASendEventTestTests" */;
+			buildPhases = (
+				B29C600B1821998800C5EC98 /* Sources */,
+				B29C600C1821998800C5EC98 /* Frameworks */,
+				B29C600D1821998800C5EC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29C60151821998800C5EC98 /* PBXTargetDependency */,
+			);
+			name = BKASendEventTestTests;
+			productName = BKASendEventTestTests;
+			productReference = B29C600F1821998800C5EC98 /* BKASendEventTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29C5FE61821998800C5EC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BKA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = BKA;
+				TargetAttributes = {
+					B29C600E1821998800C5EC98 = {
+						TestTargetID = B29C5FED1821998800C5EC98;
+					};
+				};
+			};
+			buildConfigurationList = B29C5FE91821998800C5EC98 /* Build configuration list for PBXProject "BKASendEventTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B29C5FE51821998800C5EC98;
+			productRefGroup = B29C5FEF1821998800C5EC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29C5FED1821998800C5EC98 /* BKASendEventTest */,
+				B29C600E1821998800C5EC98 /* BKASendEventTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29C5FEC1821998800C5EC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C600A1821998800C5EC98 /* Images.xcassets in Resources */,
+				B29C5FFC1821998800C5EC98 /* InfoPlist.strings in Resources */,
+				B29C60051821998800C5EC98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C600D1821998800C5EC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C601B1821998800C5EC98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29C5FEA1821998800C5EC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C5FFE1821998800C5EC98 /* main.m in Sources */,
+				B29C60081821998800C5EC98 /* BKAViewController.m in Sources */,
+				B29C60021821998800C5EC98 /* BKAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B29C600B1821998800C5EC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29C601D1821998800C5EC98 /* BKASendEventTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29C60151821998800C5EC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B29C5FED1821998800C5EC98 /* BKASendEventTest */;
+			targetProxy = B29C60141821998800C5EC98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B29C5FFA1821998800C5EC98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29C5FFB1821998800C5EC98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B29C60031821998800C5EC98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29C60041821998800C5EC98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B29C60191821998800C5EC98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B29C601A1821998800C5EC98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B29C601E1821998800C5EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B29C601F1821998800C5EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B29C60211821998800C5EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKASendEventTest/BKASendEventTest-Prefix.pch";
+				INFOPLIST_FILE = "BKASendEventTest/BKASendEventTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B29C60221821998800C5EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKASendEventTest/BKASendEventTest-Prefix.pch";
+				INFOPLIST_FILE = "BKASendEventTest/BKASendEventTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B29C60241821998800C5EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BKASendEventTest.app/BKASendEventTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKASendEventTest/BKASendEventTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BKASendEventTestTests/BKASendEventTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B29C60251821998800C5EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BKASendEventTest.app/BKASendEventTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BKASendEventTest/BKASendEventTest-Prefix.pch";
+				INFOPLIST_FILE = "BKASendEventTestTests/BKASendEventTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29C5FE91821998800C5EC98 /* Build configuration list for PBXProject "BKASendEventTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C601E1821998800C5EC98 /* Debug */,
+				B29C601F1821998800C5EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B29C60201821998800C5EC98 /* Build configuration list for PBXNativeTarget "BKASendEventTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C60211821998800C5EC98 /* Debug */,
+				B29C60221821998800C5EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B29C60231821998800C5EC98 /* Build configuration list for PBXNativeTarget "BKASendEventTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29C60241821998800C5EC98 /* Debug */,
+				B29C60251821998800C5EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29C5FE61821998800C5EC98 /* Project object */;
+}
