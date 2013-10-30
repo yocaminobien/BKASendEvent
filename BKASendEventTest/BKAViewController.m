@@ -7,10 +7,12 @@
 //
 
 #import "BKAViewController.h"
+#import "UIResponder+CustomActionsAdditions.h"
 
 @interface BKAViewController ()
 
 @end
+
 
 @implementation BKAViewController
 
@@ -18,6 +20,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)bka_handleChangeBackgroundColorRequestFromSender:(id)sender withEvent:(BKAChangeBackgroundColorEvent *)event
+{
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning

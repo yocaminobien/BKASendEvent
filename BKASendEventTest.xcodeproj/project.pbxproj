@@ -21,6 +21,9 @@
 		B29C60131821998800C5EC98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C5FF51821998800C5EC98 /* UIKit.framework */; };
 		B29C601B1821998800C5EC98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29C60191821998800C5EC98 /* InfoPlist.strings */; };
 		B29C601D1821998800C5EC98 /* BKASendEventTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C601C1821998800C5EC98 /* BKASendEventTestTests.m */; };
+		B29C602B18219CBE00C5EC98 /* BKAActionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C602A18219CBE00C5EC98 /* BKAActionEvent.m */; };
+		B29C602E18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C602D18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.m */; };
+		B29C60321821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C60311821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,13 @@
 		B29C60181821998800C5EC98 /* BKASendEventTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BKASendEventTestTests-Info.plist"; sourceTree = "<group>"; };
 		B29C601A1821998800C5EC98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29C601C1821998800C5EC98 /* BKASendEventTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKASendEventTestTests.m; sourceTree = "<group>"; };
+		B29C602918219CBE00C5EC98 /* BKAActionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAActionEvent.h; sourceTree = "<group>"; };
+		B29C602A18219CBE00C5EC98 /* BKAActionEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAActionEvent.m; sourceTree = "<group>"; };
+		B29C602C18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAChangeBackgroundColorEvent.h; sourceTree = "<group>"; };
+		B29C602D18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAChangeBackgroundColorEvent.m; sourceTree = "<group>"; };
+		B29C602F18219EBF00C5EC98 /* UIResponder+CustomActionsAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+CustomActionsAdditions.h"; sourceTree = "<group>"; };
+		B29C60301821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKAChangeBackgroundColorEventButton.h; sourceTree = "<group>"; };
+		B29C60311821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BKAChangeBackgroundColorEventButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,13 @@
 				B29C60031821998800C5EC98 /* Main.storyboard */,
 				B29C60061821998800C5EC98 /* BKAViewController.h */,
 				B29C60071821998800C5EC98 /* BKAViewController.m */,
+				B29C602918219CBE00C5EC98 /* BKAActionEvent.h */,
+				B29C602A18219CBE00C5EC98 /* BKAActionEvent.m */,
+				B29C602C18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.h */,
+				B29C602D18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.m */,
+				B29C602F18219EBF00C5EC98 /* UIResponder+CustomActionsAdditions.h */,
+				B29C60301821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.h */,
+				B29C60311821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.m */,
 				B29C60091821998800C5EC98 /* Images.xcassets */,
 				B29C5FF81821998800C5EC98 /* Supporting Files */,
 			);
@@ -251,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B29C5FFE1821998800C5EC98 /* main.m in Sources */,
+				B29C602B18219CBE00C5EC98 /* BKAActionEvent.m in Sources */,
 				B29C60081821998800C5EC98 /* BKAViewController.m in Sources */,
 				B29C60021821998800C5EC98 /* BKAAppDelegate.m in Sources */,
+				B29C602E18219DDE00C5EC98 /* BKAChangeBackgroundColorEvent.m in Sources */,
+				B29C60321821A7CC00C5EC98 /* BKAChangeBackgroundColorEventButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
